@@ -87,7 +87,7 @@ Finally, you will test the application to verify that it runs the same as if the
 1. In Visual Studio, open the **GradesPrototype.sln** solution from the **[Repository Root]\Allfiles\Mod08\Labfiles\Starter\Exercise 2** folder.
 2. Set the following projects to start at startup:
    - **Grades.Web**
-   - **Grades.WPF**
+   - **GradesPrototype**
 3. Rebuild the solution.
 4. In the **GradesPrototype** project, remove the reference to the **Grades.DataModel** project.
 5. Add a service reference to **http://localhost:1655/Services/GradesWebDataService.svc/$metadata** by using the **Grades.DataModel** namespace.
@@ -166,7 +166,7 @@ Finally, you will run the application to verify that the images appear.
 1. In Visual Studio, open the **GradesPrototype.sln** solution from the **[Repository Root]\Allfiles\Mod08\Labfiles\Starter\Exercise 3** folder.
 2. Set the following projects to start at startup:
    - **Grades.Web**
-   - **Grades.WPF**
+   - **GradesPrototype**
 3. Rebuild the solution.
 4. In the **GradesPrototype** project, in **StudentsPage.xaml.cs**, create a new public class named **ImageNameConverter** that implements the **IValueConverter** interface.
 5. In the **ImageNameConverter** class, define a string constant named **webFolder** that contains the string **http://localhost:1650/Images/Portraits/**.
