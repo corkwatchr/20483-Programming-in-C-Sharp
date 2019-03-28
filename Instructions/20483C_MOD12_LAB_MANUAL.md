@@ -61,7 +61,7 @@ In the **Grades.WPF** project, in the **Data.cs** file, in the **LocalGrade** cl
   - Label: **Subject Name**
   - Bold: **true**
   - Underline: **true**
-- **AssessmentDate** property:
+- **AssessmentDateString** property:
   - Label: **Date**
 - **Assessment** property:
   - Label: **Grade**
