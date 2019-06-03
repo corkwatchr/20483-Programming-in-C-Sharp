@@ -39,7 +39,7 @@ namespace School
         // Connect to the database and display the list of teachers when the window appears
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            this.scope = new TransactionScope(TransactionScopeOption.RequiresNew);
+            // this.scope = new TransactionScope(TransactionScopeOption.RequiresNew);
             this.schoolContext = new SchoolDBEntities();
             teachersList.DataContext = this.schoolContext.Teachers;
         }
